@@ -530,7 +530,7 @@
         cursor: pointer;
         font-size: 13px;
       `;
-      cycleBtn.title = "Cycle status: none → todo → done → none";
+      cycleBtn.title = "Cycle status: todo → done → none";
  
       cycleBtn.addEventListener("click", async () => {
         await mutateEntry(entry.url, (current) => {
