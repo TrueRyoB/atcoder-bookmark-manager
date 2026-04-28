@@ -144,7 +144,7 @@
     panel.style.cssText = `
       position: fixed;
       right: 12px;
-      bottom: 12px;
+      bottom: 82px;
       z-index: 999999;
       display: flex;
       gap: 8px;
